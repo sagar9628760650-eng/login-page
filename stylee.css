@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    center: center;
+    background-image: url("file:///C:/Users/Lenovo/OneDrive/Desktop/sagar%20.vs/colleg%20.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 400px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    
+}
+
+h2 {
+    color: #fff;
+    padding: 20px;
+    font-size: 2em;
+}
+.form-group {
+    position: relative;
+    
+    width: 330px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff; 
+}
+
+.form-group input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+}
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #fff;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .5s;
+    font-size: 1.2em;
+}
+
+input:focus ~ label,
+input:valid ~ label
+{
+    top: -5px;
+    color: #fff;
+}
+.form-group i
+{
+    position: relative;
+    top: 20px;
+    right: 10px;
+    transition: .5s;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 30px 0 10px ;
+
+}
+p
+{
+    text-align: center;
+    color: #fff;
+padding: 10px;
+}
+
+p>a
+{
+    ccolor: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+p>a:hover
+{
+    text-decoration: underline;
+    font-style: italic;
+}
+#btn
+{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background: #ffff
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    backdrop-filter: blur(3px);
+}   
+#btn:hover
+{
+    background: #fff;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer; 
+}
+
